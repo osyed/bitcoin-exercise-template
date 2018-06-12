@@ -40,6 +40,6 @@ git checkout [EXERCISE_BRANCH]
 git pull
 ```
 
-Once you have pulled the tests, run them with:
+Once you have pulled the tests, switch back to your project root and run them with:
 
 `npm test`
