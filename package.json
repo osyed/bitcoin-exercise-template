@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "mocha": "*",
+    "chai": "*"
+  },
+  "dependencies": {
+  }
+}
