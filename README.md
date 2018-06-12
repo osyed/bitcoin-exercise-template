@@ -34,10 +34,12 @@ The `test/` submodule has branches for each of the exercises:
 
 When you make a branch for an exercise, set the `test/` submodule to get the right tests with:
 
-	`cd test/`
-	`git checkout [EXERCISE_BRANCH]`
-	`git pull`
+```
+cd test/
+git checkout [EXERCISE_BRANCH]
+git pull
+```
 
 Once you have pulled the tests, run them with:
 
-	`npm test`
+`npm test`
