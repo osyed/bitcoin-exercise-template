@@ -46,5 +46,5 @@ To make git automagically pull the right tests when you checkout a branch, use:
 
 `git checkout <branch> --recurse-submodules`
 
-_Note: This will use a cached version of the tests. To get latest run:
+_Note: This will use a cached version of the tests. To get latest run:  
 `git submodules update --remote`_
