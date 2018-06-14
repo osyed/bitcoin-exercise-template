@@ -34,12 +34,17 @@ The `test/` submodule has branches for each of the exercises:
 
 When you make a branch for an exercise, set the `test/` submodule to get the right tests with:
 
-```
-cd test/
-git checkout [EXERCISE_BRANCH]
-git pull
-```
+`git submodule update --remote`
 
-Once you have pulled the tests, switch back to your project root and run them with:
+Once you have pulled the tests, commit, and run them with:
 
 `npm test`
+
+#### Auto-checkout tests when changing branches
+
+To make git automagically pull the right tests when you checkout a branch, use:
+
+`git checkout <branch> --recurse-submodules`
+
+_Note: This will use a cached version of the tests. To get latest run:
+`git submodules update --remote`_
