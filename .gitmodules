@@ -1,3 +1,5 @@
 [submodule "test"]
 	path = test
 	url = https://github.com/osyed/bitcoin-exercise-tests.git
+	branch = .
+	update = merge
